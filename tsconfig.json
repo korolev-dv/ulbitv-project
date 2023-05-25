@@ -7,6 +7,9 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
+    "paths": {
+      "*": ["./src/*"]
+    },
     // Для абсолютного импорта
     "baseUrl": ".",
     "esModuleInterop": true,
